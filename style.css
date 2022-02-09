@@ -9,14 +9,14 @@
 }
 
 :root{
-    --cor1: #FFD301;
-    --cor2: black;
-    --cor3: #796500;
+    --cor1: #CD1E4C;
+    --cor2: #8b1434;
+    --cor3: black;
 }
 
 header{
     text-align: center;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     color: var(--cor1);
     padding: 5px;
 }
@@ -29,7 +29,7 @@ main{
 }
 
 footer{
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     color: var(--cor1);
     text-align: center;
     padding: 5px;
@@ -45,5 +45,5 @@ footer > a{
 
 footer > a:hover{
     background-color: var(--cor1);
-    color: var(--cor2);
+    color: var(--cor3);
 }
