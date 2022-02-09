@@ -11,6 +11,7 @@
 :root{
     --cor1: #FFD301;
     --cor2: black;
+    --cor3: #796500;
 }
 
 header{
@@ -22,7 +23,9 @@ header{
 
 main{
     background-color: white;
-    color: #ff6347;
+    color: var(--cor1);
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
 }
 
 footer{
