@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media idade 2 pessoas</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+
+        .but{
+            border-radius: 15%;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, vou calcular a media de idade de duas pessoas</h1>
+    <p>
+        Digite a idade da primeira: <input type="number" name="id1" id="id1"> <br>
+        Digite a idade da segunda:  <input type="number" name="id2" id="id2"> <br>
+        <input type="button" class="but" value="verificar" onclick="calc()">
+    </p>
+    <div class="result">
+
+    </div>
+    <script>
+        function calc(){
+            var ida1 = document.querySelector('input#id1')
+            var ida2 = document.querySelector('input#id2')
+            var res = document.querySelector('div.result')
+            var idade1 = Number(ida1.value)
+            var idade2 = Number(ida2.value)
+            var media = (idade1 + idade2)/2
+            res.innerHTML = `<p>A média de idade entre essas duas pessoas é de <strong>${media} anos!</strong></p>`
+        }
+    </script>
+</body>
+</html>
