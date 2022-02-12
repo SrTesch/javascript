@@ -12,24 +12,12 @@
             font: normal 18pt Arial;
         }
     </style>
+    <script src="ex5.js"></script>
 </head>
 <body>
     <h1>Iniciando estudos DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
     <div id="msg">Clique aqui!</div>
-    <script>
-        var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[0];
-        p1.style.color = 'blue';
-        /*
-        var d = document.getElementById('msg')
-        d.style.background = 'green'
-        d.innerText = 'Estou aguardando...'
-        */
-       var d = document.querySelector('div#msg')
-       d.style.background = 'green'
-
-    </script>
 </body>
 </html>
