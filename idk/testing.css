@@ -1,0 +1,9 @@
+body{
+    background-color: aquamarine;
+}
+
+.but{
+    border-radius: 15%;
+    background-color: blue;
+    color: white;
+}
